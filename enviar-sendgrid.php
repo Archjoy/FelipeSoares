@@ -5,8 +5,8 @@ require("./sendgrid-php/sendgrid-php.php");
 $email_site = "lays2lipe@outlook.com";
 $nome_site = "Felipe Soares";
 
-$email_user = $_POST["lays2lipe@outlook.com"];
-$nome_user = $_POST["Felipe"];
+$email_user = $_POST["e-mail"];
+$nome_user = $_POST["nome"];
 
 $body_content = "";
 foreach( $_POST as $field => $value) {

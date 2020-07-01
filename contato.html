@@ -28,15 +28,19 @@
   </header>
   <section class="formulario">
     <div>
-      <form action="enviar-sendgrid.php" method="post" name="form" id="form">
+      <form action="./enviar-sendgrid.php" method="post" name="form" id="form" class="formphp">
         <div><label for="nome">Nome</label>
           <input type="text" id="#nome" name="nome" required></div>
         <div><label for="e-mail">E-mail</label>
           <input type="text" id="#e-mail" name="e-mail" required></div>
+        <label class="nao-aparece">Se você é um robô, não deixe em branco.</label>
+        <input type="text" class="nao-aparece" name="leaveblank">
+        <label class="nao-aparece">Se você não é um robô, não mude este campo.</label>
+        <input type="text" class="nao-aparece" name="dontchange" value="http://">
         <div>
           <label for="mensagem">Mensagem</label>
-          <textarea name="mensagem" id="#mensagem" cols="30" rows="10"></textarea></div>
-        <div><button type="submit">Enviar</button></div>
+          <textarea name="mensagem" id="#mensagem" cols="30" rows="10" required></textarea></div>
+        <div><button id="enviar" name="enviar" type="submit">Enviar</button></div>
     </div>
     </form>
     <div>
@@ -55,8 +59,7 @@
     </div>
 
     <script src="/js/contato.js"></script>
-    <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
-
+    <script src="/js/simple-form.js"></script>
   </section>
 </body>
 

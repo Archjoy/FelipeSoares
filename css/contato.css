@@ -135,3 +135,8 @@ button:hover {
     display: none;
   }
 }
+.nao-aparece {
+  visibility: hidden;
+  position: absolute;
+  height: 0px;
+}

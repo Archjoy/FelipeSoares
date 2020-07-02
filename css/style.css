@@ -13,7 +13,7 @@ header {
   padding: 5px;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
   background-image: linear-gradient(135deg, #84e 1%, #7159c1 71%);
   box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.5) inset,
     0px 2px 0px -1px rgba(0, 0, 0, 0.2), 0px 4px 0px -2px rgba(0, 0, 0, 0.15),

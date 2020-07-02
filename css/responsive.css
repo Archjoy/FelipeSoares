@@ -34,25 +34,25 @@
     transform: rotate(135deg);
   }
 
-  .links.mobile-menu {
+  .mobile-menu {
     position: fixed;
     right: 30px;
-    top: 70px;
+    top: 80px;
     opacity: 0;
     visibility: hidden;
     transform: translate3d(0px, 60px, 0px);
     transition: 0.3s;
   }
-  .links.mobile-menu.active {
+  .mobile-menu.active {
     opacity: 1;
     visibility: visible;
     transform: translate3d(0px, 0px, 0px);
   }
 
-  .links.mobile-menu a {
+  .mobile-menu a {
     display: block;
   }
-  .links.mobile-menu a {
+  .mobile-menu a {
     border-top: 2px solid;
     width: 100%;
     text-align: center;

@@ -21,7 +21,7 @@ header {
   transition: box-shadow 0.3s ease-out;
 }
 
-.bg_video {
+#bg_video {
   position: fixed;
   right: 0;
   bottom: 0;
